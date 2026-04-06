@@ -1,0 +1,47 @@
+AI Knowledge Assistant is a smart chatbot designed to answer user queries based on provided documents.
+
+It uses Retrieval-Augmented Generation (RAG) to fetch relevant information and generate accurate responses.
+
+Key Features:
+- Answers questions based on stored documents
+- Uses vector embeddings for semantic search
+- Provides context-aware and accurate responses
+- Reduces dependency on manual document search
+
+Technology Stack:
+- Backend: Python
+- Framework: LangChain
+- Vector Database: ChromaDB
+- LLM: OpenAI / Gemini
+- UI: Streamlit
+
+How it works:
+1. Documents are split into smaller chunks
+2. Each chunk is converted into embeddings (numerical vectors)
+3. Embeddings are stored in a vector database
+4. User query is converted into embedding
+5. System finds most relevant chunks using similarity search
+6. LLM generates response using retrieved context
+
+Use Cases:
+- Internal company knowledge assistant
+- FAQ chatbot for websites
+- Customer support automation
+- Document search and summarization
+
+Example Questions:
+- What is RAG?
+- How does this chatbot work?
+- What technologies are used?
+- What are the use cases?
+
+Benefits:
+- Saves time by automating information retrieval
+- Improves accuracy using context-based answers
+- Scalable for large document datasets
+- Easy to integrate with enterprise systems
+
+Future Enhancements:
+- Integration with cloud platforms
+- User authentication system
+- Real-time data updates
