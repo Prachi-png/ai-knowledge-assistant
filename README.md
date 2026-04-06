@@ -5,6 +5,12 @@ Supports PDF-based question answering using Retrieval-Augmented Generation (RAG)
 
 ---
 
+## 🌐 Live Demo
+
+👉 https://ai-knowledge-assistant-chatbot.streamlit.app/
+
+---
+
 ## 🚀 Features
 
 - 💬 Chat-based interface
